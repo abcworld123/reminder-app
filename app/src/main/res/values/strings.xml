@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">Reminder</string>
+    <string name="app_name">리마인더</string>
+    <string name="label_title">제목:</string>
+    <string name="label_content">내용:</string>
+    <string name="label_group">그룹:</string>
+    <string name="input">입력...</string>
+    <string name="save">저장</string>
+    <string name="priority_low">낮음</string>
+    <string name="priority_medium">보통</string>
+    <string name="priority_high">긴급</string>
 </resources>
