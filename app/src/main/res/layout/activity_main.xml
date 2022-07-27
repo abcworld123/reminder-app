@@ -26,9 +26,10 @@
         android:paddingEnd="0dp"
         android:textSize="20sp"
         android:ems="10"
-        android:hint="@string/input"
-        android:inputType="textPersonName"
+        android:hint="@string/input_dev"
+        android:inputType="text"
         android:autofillHints="no"
+        android:enabled="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,7 +55,7 @@
         android:textSize="20sp"
         android:ems="10"
         android:hint="@string/input"
-        android:inputType="textPersonName"
+        android:inputType="text"
         android:autofillHints="no"
         app:layout_constraintStart_toStartOf="@+id/editTextTitle"
         app:layout_constraintTop_toBottomOf="@+id/editTextTitle" />
@@ -78,9 +79,10 @@
         android:paddingEnd="0dp"
         android:textSize="20sp"
         android:ems="10"
-        android:hint="@string/input"
-        android:inputType="textPersonName"
+        android:hint="@string/input_dev"
+        android:inputType="text"
         android:autofillHints="no"
+        android:enabled="false"
         app:layout_constraintStart_toStartOf="@+id/editTextContent"
         app:layout_constraintTop_toBottomOf="@+id/editTextContent" />
 
@@ -128,6 +130,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="25dp"
             android:text="@string/priority_low"
+            android:enabled="false"
             android:textSize="20sp" />
 
     </RadioGroup>
