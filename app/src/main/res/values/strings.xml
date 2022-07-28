@@ -7,6 +7,7 @@
     <string name="priority_low">낮음</string>
     <string name="priority_medium">보통</string>
     <string name="priority_high">긴급</string>
+    <string name="default_title" translatable="false">리마인더</string>
     <string name="notification_channel_id" translatable="false">default_channel</string>
     <string name="notification_channel_name" translatable="false">알림</string>
 </resources>

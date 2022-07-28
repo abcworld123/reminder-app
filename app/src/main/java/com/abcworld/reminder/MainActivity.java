@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity
 			int checked = radioGroup.getCheckedRadioButtonId();
 
 			if (title.equals("")) {
-				title = "리마인더";
+				title = getString(R.string.default_title);
 			}
 
 			if (checked == R.id.radioHigh) {
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity
 
 	private void notify(String title, String content, Priority priority) {
 		final String channelId = getString(R.string.notification_channel_id);
-		final String channelName = "알림";
+		final String channelName = getString(R.string.notification_channel_name);
 		int groupId, icon;
 		String group;
 
