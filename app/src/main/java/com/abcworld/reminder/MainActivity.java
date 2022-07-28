@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity
 				.setAutoCancel(true);
 
 		NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
-		NotificationChannel channel = new NotificationChannel(channelId, channelName, NotificationManager.IMPORTANCE_DEFAULT);
+		NotificationChannel channel = new NotificationChannel(channelId, channelName, NotificationManager.IMPORTANCE_LOW);
 		notificationManager.createNotificationChannel(channel);
 
 		notificationManager.notify(NotificationID.getID(), notificationBuilder.build());
