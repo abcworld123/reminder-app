@@ -26,10 +26,9 @@
         android:paddingEnd="0dp"
         android:textSize="20sp"
         android:ems="10"
-        android:hint="@string/input_dev"
+        android:hint="@string/input"
         android:inputType="text"
         android:autofillHints="no"
-        android:enabled="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
@@ -60,32 +59,6 @@
         app:layout_constraintStart_toStartOf="@+id/editTextTitle"
         app:layout_constraintTop_toBottomOf="@+id/editTextTitle" />
 
-    <TextView
-        android:id="@+id/textViewGroup"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:textSize="20sp"
-        android:text="@string/label_group"
-        app:layout_constraintStart_toStartOf="@+id/textViewContent"
-        app:layout_constraintTop_toTopOf="@+id/editTextGroup" />
-
-    <EditText
-        android:id="@+id/editTextGroup"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:paddingStart="7dp"
-        android:paddingEnd="0dp"
-        android:textSize="20sp"
-        android:ems="10"
-        android:hint="@string/input_dev"
-        android:inputType="text"
-        android:autofillHints="no"
-        android:enabled="false"
-        app:layout_constraintStart_toStartOf="@+id/editTextContent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextContent" />
-
     <Button
         android:id="@+id/buttonSave"
         android:layout_width="109dp"
@@ -106,7 +79,7 @@
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextGroup">
+        app:layout_constraintTop_toBottomOf="@+id/editTextContent">
 
         <RadioButton
             android:id="@+id/radioHigh"
