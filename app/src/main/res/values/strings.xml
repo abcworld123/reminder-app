@@ -10,4 +10,35 @@
     <string name="default_title" translatable="false">리마인더</string>
     <string name="notification_channel_id" translatable="false">default_channel</string>
     <string name="notification_channel_name" translatable="false">알림</string>
+    <string name="popup_channel_id" translatable="false">scheduled_alert_channel</string>
+    <string name="popup_channel_name" translatable="false">예약 알림</string>
+
+    <!-- Bottom bar -->
+    <string name="nav_notify">알림</string>
+    <string name="nav_schedule">예약 알림</string>
+    <string name="nav_history">히스토리</string>
+
+    <!-- Schedule screen -->
+    <string name="label_date">날짜:</string>
+    <string name="label_time">시간:</string>
+    <string name="schedule">예약</string>
+    <string name="scheduled_list">예약 목록</string>
+    <string name="no_scheduled">예약된 알림이 없습니다</string>
+    <string name="cancel">취소</string>
+
+    <!-- History screen -->
+    <string name="no_history">기록된 알림이 없습니다</string>
+
+    <!-- Time keypad -->
+    <string name="pick_time">시간 선택</string>
+    <string name="key_clear" translatable="false">C</string>
+    <string name="confirm">확인</string>
+    <string name="time_out_of_range">00:00 ~ 23:59 로 입력하세요</string>
+
+    <!-- Toast messages -->
+    <string name="toast_scheduled">%1$s 에 예약되었습니다</string>
+    <string name="toast_past_time">지난 시각은 예약할 수 없습니다</string>
+    <string name="toast_canceled">예약이 취소되었습니다</string>
+    <string name="toast_need_notification_permission">알림 권한이 필요합니다</string>
+    <string name="toast_need_exact_alarm">정확한 알람 권한이 필요합니다. 설정에서 허용해 주세요</string>
 </resources>
